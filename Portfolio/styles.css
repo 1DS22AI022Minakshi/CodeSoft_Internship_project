@@ -302,7 +302,9 @@
     background-repeat: no-repeat;
     position: relative;
     box-shadow: 0px 0px 40px #1f1f1f;
+    position: relative;
 }
+
 
 #project1{
     background-image: url(images/calculator.jpg);
@@ -355,6 +357,7 @@
     transform: scale(1.05);
 }
 
+
 .project-number{
     position: absolute;
     font-size: 200px;
@@ -390,6 +393,7 @@
     z-index: 5;
     gap: 1em;
     transition: all 1s; 
+    max-width: 50%;
 }
 
 .project-content-left{
@@ -417,7 +421,7 @@
 }
 
 .project-sub-heading{
-    width: 70%;
+    max-width: 100%;
     font-size: 25px;
     font-weight: 500;
 }
@@ -628,6 +632,16 @@
     bottom: -120%;
     color: #535c87;
     user-select: none;
+}
+
+.role{
+    color: #4e45d5;
+    font-weight: 800;
+}
+
+.right-part{
+    position: absolute;
+    right: 10%;
 }
 
 
