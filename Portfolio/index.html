@@ -33,7 +33,7 @@
                     <h3 class="heading">Hi! Minakshi Kumari</h3>
                     <div class="sub-heading">I am a <span class="role"></span></div>
                     <div class="description">I’m a software developer and here is my portfolio website. Here you’ll learn about my journey as a software developer.</div>
-                    <div class="btn-pink">Hire Me</div>
+                    <div class="btn-pink" id="resume-btn" onclick="openResume()">Resume</div>
                 </div>
 
 
@@ -304,6 +304,11 @@
       backSpeed: 80,
       backDelay: 1000,
     });
+
+    function openResume() {
+                // Change 'Resume_for_google.pdf' to the actual path of your resume file
+                window.open('Resume/Resume_for_google.pdf', '_blank');
+          }
   </script>
 </body>
 </html>
